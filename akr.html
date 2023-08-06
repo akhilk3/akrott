@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AKR OTT PLATFORM</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+    }
+    header {
+      background-color: rgba(30, 144, 255, 0.7);
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 48px;
+      margin: 0;
+    }
+    h2 {
+      font-family: 'Cinzel Decorative', cursive;
+      font-size: 36px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    h3 {
+      font-size: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    h3 img {
+      height: 40px;
+      margin-right: 10px;
+    }
+    @media screen and (max-width: 600px) {
+      h1 {
+        font-size: 24px;
+      }
+      h3 {
+        font-size: 18px;
+      }
+      h2 {
+        font-size: 22px;
+      }
+    }
+    .container {
+      display: flex;
+      justify-content: space-around;
+      margin: 50px auto;
+      max-width: 800px;
+    }
+    .form-container {
+      width: 45%;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: rgba(255, 255, 255, 0.7);
+    }
+    input[type="text"],
+    input[type="password"],
+    input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    input[type="submit"] {
+      background-color: #1E90FF;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .switch-form {
+      text-align: center;
+      margin-top: 10px;
+    }
+    .switch-form a {
+      color: #1E90FF;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    .custom-div {
+      text-align: center;
+      padding: 30px;
+      background-color: rgba(255, 255, 255, 0.7);
+      border-radius: 5px;
+      margin: 30px auto;
+      max-width: 600px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AKR OTT PLATFORM</h1>
+    <p>We have all OTT platforms where you can afford easily by taking a yearly subscription.We will Refund payment after sign in to the account</p>
+  </header>
+  <br>
+  <img src="https://i.ytimg.com/vi/55KHuM6dcLk/maxresdefault.jpg" width="500" height="600">
+  <div class="custom-div">
+    <h3>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix Logo">
+      <img src="https://static.vecteezy.com/system/resources/previews/019/040/292/original/amazon-prime-video-logo-editorial-free-vector.jpg" alt="Amazon Logo">
+      HOW YOU CAN EARN MONEY IN THESE PLATFORM
+    </h3>
+    <p>It's a startup OTT Platform where all people can afford for all OTT platforms like Amazon and Netflix which can cost 500. First of all, you need to subscribe with 500 after using the OTT platform. If you want to earn money, refer a person, and you will get 300 per referral. This way, our OTT platform gets more reach, and our sales will be high.</p>
+  </div>
+  <div class="custom-div">
+    <div class="container">
+      <div class="form-container">
+        <h2>Login</h2>
+        <form action="/home/akhilk3/Desktop/akrott/welcome.html" method="post">
+          <input type="text" name="username" placeholder="Username" required>
+          <input type="password" name="password" placeholder="Password" required>
+          <input type="submit" value="Login">
+        </form>
+        <div class="switch-form">
+          <a href="#registration">Register</a>
+        </div>
+      </div>
+      <div class="form-container">
+        <h2 id="registration">Registration</h2>
+        <form action="/home/akhilk3/Desktop/akrott/welcome.html" method="post">
+          <input type="text" name="username" placeholder="Username" required>
+           <input type="text" name="reffercode" placeholder="reffercode" required>
+          <input type="password" name="password" placeholder="Password" required>
+          <input type="email" name="email" placeholder="Email" required>
+
+          <input type="submit" value="Register">
+        </form>
+        <div class="switch-form">
+          <a href="#">Back to Login</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Custom <div> for additional content -->
+  <div class="custom-div">
+    <h2>NO MONEY FOR BUYING NETFLIX AND AMAZON PRIME AND ETC PLATFORMS</h2>
+    <p>We are here to provide the cheapest OTT platform. We give all OTT platforms accounts if you buy our subscription pack with 500 rupees. We will also give you free 300 rupees for referring our OTT platform.</p>
+    <p>We have 5 platforms:</p>
+    <ol>
+      <li>AMAZON PRIME</li>
+      <li>NETFLIX</li>
+      <li>ZEE 5</li>
+      <li>HOTSTAR</li>
+    </ol>
+  </div>
+</body>
+</html>
